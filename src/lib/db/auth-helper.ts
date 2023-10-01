@@ -1,0 +1,1 @@
+import { isValidEmail } from './email'

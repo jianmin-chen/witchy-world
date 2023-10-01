@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Jua';
+  src: url('/Jua-Regular.ttf') format('truetype');
+}
+
+:root {
+  --font-family: Jua;
+  --bg: #eeeeee;
+  --bg2: rgba(205, 95, 21, 0.85);
+  --bg2-sub: #da6c22;
+  --text-color: #ffffff;
+  --link-color: #ab237d;
+  --border-color: #da8a53;
+  --button-color: #ab237d;
+  --button-fg-color: #ffffff;
+  --button-shadow-color: #c43c96;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 18px;
+  margin: 0;
+  overflow-x: clip;
+  padding: 0;
+}
